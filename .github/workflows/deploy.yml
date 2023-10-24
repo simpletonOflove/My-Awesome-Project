@@ -4,8 +4,10 @@ name: Deploy VitePress site to Pages
 # 2. 触发条件修改为: 当 main 或 master 分支, 有 push 的时候, 执行任务
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - main
+    # tags:
+    #   - '*'
 
   workflow_dispatch:
 # 3. 创建工作流
