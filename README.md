@@ -1,3 +1,3 @@
 # My-Awesome-Project
 A VitePress Site
-自动部署test
+自动部署
