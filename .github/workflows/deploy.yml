@@ -9,7 +9,7 @@ on:
     # tags:
     #   - '*'
 
-  # workflow_dispatch:
+  workflow_dispatch:
 # 3. 创建工作流
 jobs:
   # 工作流名称
