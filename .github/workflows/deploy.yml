@@ -26,19 +26,19 @@ jobs:
         # with:
         #   ref: 'master'
       # step 2. 使用指定版本 node
-      - name: Install yarn
+      - name: Install pnpm
         run: corepack enable
 
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'yarn'
+          cache: 'pnpm'
       # step 3. 安装依赖并打包
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Build Site
-        run: npm run docs:build
+        run: pnpm run docs:build
 
       # step 4. 项目部署, 将打包后的产物合并到指定的分支上
       - name: Deploy for GitHub 🚀
