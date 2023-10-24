@@ -23,8 +23,8 @@ jobs:
         # 使用插件 => https://github.com/actions/checkout
         uses: actions/checkout@v4
         # 插件携带参数
-        with:
-          ref: 'master'
+        # with:
+        #   ref: 'master'
       # step 2. 使用指定版本 node
       - name: Install yarn
         run: corepack enable
