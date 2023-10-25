@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.f3821829.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/完善配置.md","filePath":"blog/完善配置.md"}'),o={name:"blog/完善配置.md"};function r(s,c,n,_,p,d){return t(),a("div")}const m=e(o,[["render",r]]);export{l as __pageData,m as default};
